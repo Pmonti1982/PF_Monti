@@ -159,11 +159,10 @@ p {
     padding: 10px 180px 10px 180px !important;
   }
   h1 {
-    font-size: 60px;
     padding-bottom: 20px;
   }
   th, td {
-    font-size: 30px;
+    font-size: 20px;
   }
 }
 
