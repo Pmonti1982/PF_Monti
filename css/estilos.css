@@ -82,7 +82,6 @@ main, footer {
 }
 
 h1, h2 {
-  text-align: center;
   padding-top: 20px;
   padding-bottom: 5px;
 }
@@ -92,8 +91,8 @@ h3 {
   margin: 0;
 }
 
-p {
-  text-align: justify;
+h1, h2, h3, .alignText {
+  text-align: center;
 }
 
 /* ====================Formatos generales=================================*/
@@ -110,6 +109,11 @@ p {
 }
 .btn:hover {
   background-color: rgba(255, 0, 0, 0.514) !important;
+}
+
+.align {
+  position: relative;
+  left: 120px;
 }
 
 /* ====================Index html=============================================*/
