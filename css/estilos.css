@@ -75,6 +75,10 @@ th, td {
   font-style: italic;
 }
 
+.noPadding {
+  padding: 0px;
+}
+
 /* ====================Header=============================================*/
 /* ====================Formatos generales=================================*/
 main, footer {
@@ -91,7 +95,7 @@ h3 {
   margin: 0;
 }
 
-h1, h2, h3, .alignText {
+h1, h2, h3, .alignText, #footerText, footer ul li {
   text-align: center;
 }
 
