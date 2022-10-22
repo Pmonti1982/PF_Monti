@@ -90,11 +90,6 @@ h1, h2 {
   padding-bottom: 5px;
 }
 
-h3 {
-  font-family: "Indie Flower", cursive;
-  margin: 0;
-}
-
 h1, h2, h3, .alignText, #footerText, footer ul li {
   text-align: center;
 }
@@ -102,6 +97,10 @@ h1, h2, h3, .alignText, #footerText, footer ul li {
 /* ====================Formatos generales=================================*/
 /* ====================Index html=============================================*/
 /* Cards*/
+#cardTitle {
+  font-family: "Indie Flower", cursive;
+}
+
 .bi-recycle, .bi-droplet-half, .bi-car-front-fill {
   background-color: rgb(255, 227, 225);
   color: rgb(255, 148, 148);
@@ -132,7 +131,7 @@ h1, h2, h3, .alignText, #footerText, footer ul li {
 /* ====================Galeria html=============================================*/
 /* ====================Footer=============================================*/
 .nav a {
-  color: rgb(121, 79, 79) !important;
+  color: rgb(121, 79, 79) !important !important;
 }
 
 #footerHover ul li:hover {
