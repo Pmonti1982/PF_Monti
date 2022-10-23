@@ -3,10 +3,101 @@
   padding: 0;
 }
 
+/* ====================Formatos generales=================================*/
 html {
   font-family: "Roboto", sans-serif;
 }
 
+main, footer {
+  background-color: rgb(255, 227, 225);
+}
+
+h1, h2 {
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+h1, h2, h3, .alignText, #footerText, footer ul li {
+  text-align: center;
+}
+
+/* ====================Formatos generales=================================*/
+/* ====================Header=============================================*/
+.navbar {
+  background-color: rgba(255, 209, 209, 0.774);
+}
+
+.navbar-brand {
+  width: 50px;
+  height: 60px;
+}
+
+.nav-item a, select {
+  color: rgb(121, 79, 79) !important;
+  font-style: italic;
+}
+
+.noPadding {
+  padding: 0px;
+}
+
+/* ====================Header=============================================*/
+/* ====================Footer=============================================*/
+.nav a {
+  color: rgb(121, 79, 79) !important !important;
+}
+
+#footerHover ul li:hover {
+  background-color: rgba(231, 212, 211, 0.692);
+}
+
+/* Redes Sociales */
+.bi-facebook {
+  color: rgb(63, 103, 178);
+  font-size: 20px;
+}
+
+.bi-pinterest {
+  color: rgb(230, 0, 35);
+  font-size: 20px;
+}
+
+.bi-whatsapp {
+  color: rgb(37, 211, 102);
+  font-size: 20px;
+}
+
+.bi-instagram {
+  color: rgb(255, 48, 108);
+  font-size: 20px;
+}
+
+/* ====================Footer=============================================*/
+/* ====================Index html=============================================*/
+/* Cards*/
+#cardTitle {
+  font-family: "Indie Flower", cursive;
+}
+
+.bi-recycle, .bi-droplet-half, .bi-car-front-fill {
+  background-color: rgb(255, 227, 225);
+  color: rgb(255, 148, 148);
+}
+
+.btn {
+  background-color: rgb(255, 148, 148);
+  border: rgb(255, 148, 148);
+}
+.btn:hover {
+  background-color: rgba(255, 0, 0, 0.514) !important;
+}
+
+.align {
+  position: relative;
+  left: 120px;
+}
+
+/* ====================Index html=============================================*/
 /* ====================Productos html============================================*/
 table {
   margin-top: 30px;
@@ -18,6 +109,15 @@ th, td {
 }
 
 /* ====================Productos html============================================*/
+/* ====================Galeria html=============================================*/
+.card {
+  filter: grayscale(100%);
+}
+.card:hover {
+  filter: none;
+}
+
+/* ====================Galeria html=============================================*/
 /* ====================Contacto html=============================================*/
 .formulario {
   display: grid;
@@ -60,108 +160,21 @@ th, td {
 }
 
 /* ====================Contacto html=============================================*/
-/* ====================Header=============================================*/
-.navbar {
-  background-color: rgba(255, 209, 209, 0.774);
+/* ====================Entregas html=============================================*/
+.mapArea {
+  width: 100px;
+  height: 500px;
 }
 
-.navbar-brand {
-  width: 50px;
-  height: 60px;
+.mapArea, .maps {
+  width: 100%;
+  height: 100%;
 }
 
-.nav-item a, select {
-  color: rgb(121, 79, 79) !important;
-  font-style: italic;
-}
-
-.noPadding {
-  padding: 0px;
-}
-
-/* ====================Header=============================================*/
-/* ====================Formatos generales=================================*/
-main, footer {
-  background-color: rgb(255, 227, 225);
-}
-
-h1, h2 {
-  padding-top: 20px;
-  padding-bottom: 5px;
-}
-
-h1, h2, h3, .alignText, #footerText, footer ul li {
-  text-align: center;
-}
-
-/* ====================Formatos generales=================================*/
-/* ====================Index html=============================================*/
-/* Cards*/
-#cardTitle {
-  font-family: "Indie Flower", cursive;
-}
-
-.bi-recycle, .bi-droplet-half, .bi-car-front-fill {
-  background-color: rgb(255, 227, 225);
-  color: rgb(255, 148, 148);
-}
-
-.btn {
-  background-color: rgb(255, 148, 148);
-  border: rgb(255, 148, 148);
-}
-.btn:hover {
-  background-color: rgba(255, 0, 0, 0.514) !important;
-}
-
-.align {
-  position: relative;
-  left: 120px;
-}
-
-/* ====================Index html=============================================*/
-/* ====================Galeria html=============================================*/
-.card {
-  filter: grayscale(100%);
-}
-.card:hover {
-  filter: none;
-}
-
-/* ====================Galeria html=============================================*/
-/* ====================Footer=============================================*/
-.nav a {
-  color: rgb(121, 79, 79) !important !important;
-}
-
-#footerHover ul li:hover {
-  background-color: rgba(231, 212, 211, 0.692);
-}
-
-/* Redes Sociales */
-.bi-facebook {
-  color: rgb(63, 103, 178);
-  font-size: 20px;
-}
-
-.bi-pinterest {
-  color: rgb(230, 0, 35);
-  font-size: 20px;
-}
-
-.bi-whatsapp {
-  color: rgb(37, 211, 102);
-  font-size: 20px;
-}
-
-.bi-instagram {
-  color: rgb(255, 48, 108);
-  font-size: 20px;
-}
-
-/* ====================Footer=============================================*/
+/* ====================Entregas html=============================================*/
 /* Media queries */
 @media (min-width: 576px) {
+  /* ====================Formulario =================================*/
   .formPadding {
     padding: 10px 180px 10px 180px !important;
   }
@@ -170,6 +183,18 @@ h1, h2, h3, .alignText, #footerText, footer ul li {
   }
   th, td {
     font-size: 20px;
+  }
+  /* ==========================Entregas===============================*/
+  .mapArea {
+    width: 100%;
+    height: 100%;
+  }
+  .mapArea, .maps {
+    width: 100%;
+    height: 100%;
+  }
+  .barrio {
+    font-size: 25px !important;
   }
 }
 
